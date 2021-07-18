@@ -1,6 +1,6 @@
 {
   "name": "nth-number",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "This tiny library allows the nth number of ordinal numbers like in the css syntax of the nth-child pseudo selector",
   "main": "dist/NthNumber.js",
   "types": "dist/NthNumber.d.ts",

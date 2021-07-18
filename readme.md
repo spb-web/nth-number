@@ -9,8 +9,8 @@ This tiny library allows the nth number of ordinal numbers like in the css synta
 ```ts
 NthNumber.get('2n', 0)   // 0
 NthNumber.get('2n', 1)   // 2
+NthNumber.get('2n+1', 0) // 1
 NthNumber.get('2n+1', 1) // 3
-NthNumber.get('2n+1', 1) // 1
 ```
 
 #### Check nth

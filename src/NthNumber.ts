@@ -13,7 +13,7 @@ export class NthNumber {
       throw getTemplateError(nthTemplate)
     }
  
-    this.multiple = result[1] ? Number(result[1]) : 0
+    this.multiple = result[1] ? Number(result[1]) : 1
     this.offset = result[2] ? Number(result[2]) : 0
 
     if (Math.abs(this.offset) >= this.multiple) {
