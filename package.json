@@ -1,0 +1,31 @@
+{
+  "name": "nth-number",
+  "version": "1.0.0",
+  "description": "This tiny library allows the nth number of ordinal numbers like in the css syntax of the nth-child pseudo selector",
+  "main": "dist/NthNumber.js",
+  "types": "dist/NthNumber.d.ts",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spb-web/nth-number.git"
+  },
+  "keywords": [
+    "nth"
+  ],
+  "author": "V.Ruzanov <spb.web@bk.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spb-web/nth-number/issues"
+  },
+  "homepage": "https://github.com/spb-web/nth-number#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.3",
+    "@types/node": "^16.3.3",
+    "rollup": "^2.53.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  }
+}

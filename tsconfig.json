@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext", "DOM"
+    ],
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "rootDir": "src",
+    "types": [
+      "@types/node",
+    ]
+  },
+  "include": ["./src"],
+  "exclude": [
+    "rollup.config.js",
+    "node_modules/**/*",
+    "dist",
+    "docs"
+  ]
+}
